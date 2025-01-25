@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Consolas";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local('Consolas'),
+      url("fonts/consolas.woff") format('woff');
+  //url("/consolas.woff") format("woff"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+}
