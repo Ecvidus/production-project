@@ -4,6 +4,7 @@
     background: var(--inverted-bg-color);
     position: relative;
     transition: width 0.3s ease-in-out;
+    border-right: 3px black solid;
 }
 
 .collapsed {

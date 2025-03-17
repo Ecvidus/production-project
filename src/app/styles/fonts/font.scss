@@ -1,12 +1,49 @@
 @font-face {
-    font-family: Consolas;
-    font-style: normal;
-    font-weight: 400;
-
-    /* Браузер сначала попробует найти шрифт локально */
+    font-family: ApercuMonoPro;
     src:
-        local("Consolas"),
-        url("fonts/consolas.woff") format("woff");
+        local("ApercuMonoPro"),
+        url("fonts/ApercuMonoPro-Light.ttf") format("truetype"),
+        url("fonts/ApercuMonoPro-Light.eot?#iefix") format("embedded-opentype"),
+        url("fonts/ApercuMonoPro-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
 
-    /* Если браузер не поддерживает woff2, загрузит woff */
+/* Regular */
+
+@font-face {
+    font-family: ApercuMonoPro;
+    src:
+        local("ApercuMonoPro"),
+        url("fonts/ApercuMonoPro-Regular.ttf") format("truetype"),
+        url("fonts/ApercuMonoPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/ApercuMonoPro-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Medium */
+
+@font-face {
+    font-family: ApercuMonoPro;
+    src:
+        local("ApercuMonoPro"),
+        url("fonts/ApercuMonoPro-Medium.ttf") format("truetype"),
+        url("fonts/ApercuMonoPro-Medium.eot?#iefix") format("embedded-opentype"),
+        url("fonts/ApercuMonoPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Bold */
+
+@font-face {
+    font-family: ApercuMonoPro;
+    src:
+        local("ApercuMonoPro"),
+        url("fonts/ApercuMonoPro-Bold.ttf") format("truetype"),
+        url("fonts/ApercuMonoPro-Bold.eot?#iefix") format("embedded-opentype"),
+        url("fonts/ApercuMonoPro-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
 }
