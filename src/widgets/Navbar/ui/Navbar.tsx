@@ -9,12 +9,7 @@ export const Navbar = () => {
     return (
         <div className={classNames(cls.Navbar)}>
             <div className={cls.links}>
-                <Link to="/" className={cls.mainLink}>
-                    {t('Главная')}
-                </Link>
-                <Link to="/about">
-                    {t('О сайте')}
-                </Link>
+                /
             </div>
         </div>
     );
